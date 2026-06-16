@@ -132,4 +132,5 @@ Maintained as a public reference for the short-form editing community. If you sp
 
 - [awesome-amv-tools](https://github.com/for-he-s-loved/awesome-amv-tools) — anime music video editing tools
 - [awesome-capcut-alternatives](https://github.com/for-he-s-loved/awesome-capcut-alternatives) — alternatives to CapCut by use case
+- [awesome-free-video-editors](https://github.com/for-he-s-loved/awesome-free-video-editors) — free video editors across browser, desktop, mobile, open-source
 - [Beat Finder](https://for-he-s-loved.github.io/beat-finder/) — free online BPM detector
