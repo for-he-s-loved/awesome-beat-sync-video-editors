@@ -88,6 +88,7 @@ For developers building their own beat-sync tools.
 - **[Tone.js](https://tonejs.github.io)** — JavaScript audio framework, not a beat detector but useful for the surrounding audio scheduling.
 - **[ffmpeg](https://ffmpeg.org)** — Not a beat detector, but the universal video toolkit you'll use to apply the cuts.
 - **[auto-editor](https://github.com/WyattBlue/auto-editor)** — CLI tool that auto-cuts videos by silence or volume. Can be repurposed for beat cuts.
+- **[Beat Finder](https://for-he-s-loved.github.io/beat-finder/)** — Free browser tool. Drop audio, get BPM + every beat timestamp, download as JSON/CSV. Pure client-side Web Audio + FFT. Source: [github.com/for-he-s-loved/beat-finder](https://github.com/for-he-s-loved/beat-finder).
 
 ## Tutorials
 
@@ -126,3 +127,9 @@ PRs welcome. If you maintain a beat-sync editor, template pack, or tutorial, ope
 ---
 
 Maintained as a public reference for the short-form editing community. If you spot something missing, [open an issue](../../issues).
+
+## Related lists
+
+- [awesome-amv-tools](https://github.com/for-he-s-loved/awesome-amv-tools) — anime music video editing tools
+- [awesome-capcut-alternatives](https://github.com/for-he-s-loved/awesome-capcut-alternatives) — alternatives to CapCut by use case
+- [Beat Finder](https://for-he-s-loved.github.io/beat-finder/) — free online BPM detector
