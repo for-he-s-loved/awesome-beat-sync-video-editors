@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Awesome Beat Sync Video Editors — Free & Paid Tools, Templates, Libraries (2026)</title>
+<meta name="description" content="Curated list of free beat sync video editors, AI auto-cut tools, beat detection libraries, and templates for TikTok, Reels, Shorts, AMV, and dance edits. Updated 2026.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://for-he-s-loved.github.io/awesome-beat-sync-video-editors/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Awesome Beat Sync Video Editors — Free & Paid Tools, Templates, Libraries">
+<meta property="og:description" content="The reference list of beat-sync editing tools. Free browser-based editors, open-source beat detection libraries, niche templates.">
+<meta property="og:url" content="https://for-he-s-loved.github.io/awesome-beat-sync-video-editors/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Awesome Beat Sync Video Editors">
+<meta name="twitter:description" content="Free editors that auto-cut to the beat. Templates for TikTok, Reels, AMV, dance, sports edits.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Free Beat Sync Video Editors",
+  "description": "Free tools for editing videos with cuts synced to music beats.",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Cutflux",
+        "url": "https://cutflux.app",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "description": "Browser-based beat sync video editor. Drop a video and a song, cuts auto-align to detected beats. No download, no login, no watermark."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Clipchamp",
+        "url": "https://clipchamp.com",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web Browser",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "description": "Microsoft browser editor. Manual beat markers. Free tier exports up to 1080p."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "CapCut Free",
+        "url": "https://www.capcut.com",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web, Windows, macOS, iOS, Android",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "description": "Free tier of CapCut. Auto-beat-sync features moved behind Pro paywall in 2026."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "DaVinci Resolve",
+        "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Windows, macOS, Linux",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "description": "Industry-grade desktop editor, free version. Manual beat markers."
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 5,
+      "item": {
+        "@type": "SoftwareApplication",
+        "name": "Shotcut",
+        "url": "https://shotcut.org",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Windows, macOS, Linux",
+        "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+        "description": "Open-source desktop editor with manual beat markers."
+      }
+    }
+  ]
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is beat sync editing?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Beat sync editing aligns video cuts to the beats or drops of a music track. Instead of cutting on a clock, you cut on the kick, snare, or bass drop. The result feels musical and grabs attention in the first 1.3 seconds of a Short."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best free beat sync video editor?",
+      "acceptedAnswer": {"@type": "Answer", "text": "For automatic beat-sync that runs in your browser with no signup, Cutflux (cutflux.app) is the most direct option. For manual beat-marker workflows, DaVinci Resolve free and Shotcut are the standards. CapCut Free still works but the auto-beat features moved to the Pro tier in 2026."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a free CapCut alternative for beat sync?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. After CapCut Pro hit $19.99 per month in 2026, browser-based tools like Cutflux became the main free alternative for auto-beat-sync editing. It runs entirely client-side, no login required."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does automatic beat detection work?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Most modern beat detectors use spectral flux onset detection. The audio is split into short frames, the spectrum is analyzed, sudden increases in energy across frequency bands are flagged as onsets, and a minimum spacing (around 280ms) filters out duplicates. Libraries like librosa, Essentia, madmom, and the Web Audio API are the standard tooling."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can I do beat sync editing in the browser?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. The Web Audio API plus ffmpeg.wasm makes a fully client-side beat-sync editor possible. Cutflux is built on this stack — no server upload, no account, video stays on your machine."}
+    }
+  ]
+}
+</script>
+
+<style>
+:root{color-scheme:light dark}
+*{box-sizing:border-box}
+body{font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,sans-serif;max-width:860px;margin:0 auto;padding:32px 20px;color:#1a1a1a;background:#fafafa}
+@media (prefers-color-scheme:dark){body{color:#e8e8e8;background:#111}a{color:#7cc4ff}.card{background:#1a1a1a;border-color:#333}}
+h1{font-size:34px;line-height:1.2;margin:0 0 8px}
+h2{font-size:24px;margin:40px 0 12px;border-bottom:1px solid #ddd;padding-bottom:6px}
+@media (prefers-color-scheme:dark){h2{border-color:#333}}
+h3{font-size:18px;margin:24px 0 8px}
+.lede{font-size:18px;color:#555;margin:0 0 24px}
+@media (prefers-color-scheme:dark){.lede{color:#aaa}}
+a{color:#0366d6;text-decoration:none}
+a:hover{text-decoration:underline}
+.card{border:1px solid #e1e4e8;border-radius:8px;padding:16px;margin:12px 0;background:#fff}
+.card h3{margin-top:0}
+.badge{display:inline-block;font-size:12px;background:#0366d6;color:#fff;padding:2px 8px;border-radius:10px;margin-left:6px}
+.badge.free{background:#28a745}
+.badge.paid{background:#d73a49}
+ul.tools{list-style:none;padding:0}
+ul.tools li{margin:6px 0}
+nav{font-size:14px;margin:20px 0;padding:12px;background:#f0f3f6;border-radius:6px}
+@media (prefers-color-scheme:dark){nav{background:#1a1a1a}}
+nav a{margin-right:14px}
+.cta{display:inline-block;background:#0366d6;color:#fff !important;padding:10px 18px;border-radius:6px;font-weight:600;margin-top:10px}
+.cta:hover{text-decoration:none;background:#0050a5}
+footer{margin-top:60px;padding-top:20px;border-top:1px solid #ddd;font-size:14px;color:#666}
+@media (prefers-color-scheme:dark){footer{border-color:#333;color:#999}}
+code{background:#f0f3f6;padding:1px 5px;border-radius:3px;font-size:14px}
+@media (prefers-color-scheme:dark){code{background:#1a1a1a}}
+</style>
+</head>
+<body>
+
+<h1>Awesome Beat Sync Video Editors</h1>
+<p class="lede">Curated reference for editing videos with cuts that snap to the beat. Free tools, open-source libraries, niche templates, communities.</p>
+
+<nav>
+  <a href="#free-browser">Free browser editors</a>
+  <a href="#free-desktop">Free desktop</a>
+  <a href="#paid">Paid</a>
+  <a href="#templates">Templates by niche</a>
+  <a href="#libraries">Libraries</a>
+  <a href="#faq">FAQ</a>
+  <a href="https://github.com/for-he-s-loved/awesome-beat-sync-video-editors">GitHub</a>
+</nav>
+
+<h2 id="what">What is beat sync editing?</h2>
+<p>Beat sync editing aligns video cuts to the beats — or drops — of a music track. Instead of cutting on a timer, every cut lands on a kick, a snare, a bass drop, or a lyric punch. This is the format behind almost every viral short-form video since 2023. YouTube's data suggests viewers decide whether to keep watching a Short within 1.3 seconds; beat-aligned openers consistently win that decision.</p>
+<p>The technique started in AMV and dance edit communities in the early 2010s, exploded with TikTok in 2020, and went fully automatic in 2024–2026 as AI onset-detection libraries became fast enough to run in a browser tab.</p>
+
+<h2 id="free-browser">Free browser-based editors</h2>
+<p>No install, no signup, no watermark.</p>
+
+<div class="card">
+  <h3>Cutflux <span class="badge free">free</span></h3>
+  <p>Drop a video, drop a song, the editor auto-detects beats and aligns every cut to the drops. Runs entirely client-side (ffmpeg.wasm + Web Audio onset detection), so your video never leaves your machine. Free, no login, no watermark. Includes labs for glitch-on-beat, photo-montage-on-beat, and VS-maker.</p>
+  <a class="cta" href="https://cutflux.app">Open Cutflux →</a>
+</div>
+
+<div class="card">
+  <h3>Clipchamp <span class="badge free">free tier</span></h3>
+  <p>Microsoft's browser editor. Manual beat markers (not automatic). Free tier exports up to 1080p with no watermark for personal use. <a href="https://clipchamp.com">clipchamp.com</a></p>
+</div>
+
+<div class="card">
+  <h3>Kapwing <span class="badge free">free tier</span></h3>
+  <p>Browser editor with a beat-detect tool, but it's behind login on the free tier and adds a watermark unless you upgrade. <a href="https://kapwing.com">kapwing.com</a></p>
+</div>
+
+<h2 id="free-desktop">Free desktop editors</h2>
+
+<div class="card">
+  <h3>DaVinci Resolve <span class="badge free">free</span></h3>
+  <p>Industry-grade free editor from Blackmagic. Manual beat markers via the Fairlight audio panel. Steepest learning curve on this list but the most powerful. <a href="https://www.blackmagicdesign.com/products/davinciresolve">blackmagicdesign.com</a></p>
+</div>
+
+<div class="card">
+  <h3>CapCut Free <span class="badge free">free tier</span></h3>
+  <p>The classic. Auto-beat-sync features moved to the Pro tier ($19.99/mo) in the 2026 restructure. The free tier still does manual edits well. <a href="https://www.capcut.com">capcut.com</a></p>
+</div>
+
+<div class="card">
+  <h3>Shotcut <span class="badge free">free</span></h3>
+  <p>Open-source desktop editor with manual beat markers. <a href="https://shotcut.org">shotcut.org</a></p>
+</div>
+
+<div class="card">
+  <h3>OpenShot <span class="badge free">free</span></h3>
+  <p>Open-source, beginner-friendly, basic editing. No auto-beat-sync. <a href="https://openshot.org">openshot.org</a></p>
+</div>
+
+<h2 id="paid">Paid editors with auto-beat-sync</h2>
+<ul class="tools">
+  <li><strong>CapCut Pro</strong> <span class="badge paid">$19.99/mo</span> — Auto-beat-sync, AI Auto-Edit, AI Effects Generator</li>
+  <li><strong>Veed.io Pro</strong> <span class="badge paid">~$25/mo</span> — Browser-based; more AI text-to-video than beat sync</li>
+  <li><strong>Descript</strong> <span class="badge paid">$24/mo</span> — Text-based editing; weak on beat-driven cuts</li>
+  <li><strong>Submagic</strong> <span class="badge paid">$16+/mo</span> — Captions and hooks specialist</li>
+  <li><strong>OpusClip</strong> <span class="badge paid">paid</span> — Long-form to short repurposing</li>
+  <li><strong>Klap</strong> <span class="badge paid">paid</span> — Similar to OpusClip</li>
+</ul>
+
+<h2 id="templates">Beat sync templates by niche</h2>
+
+<h3>Dance edits</h3>
+<p>4-beat slow intro → drop → 8 rapid cuts to choreo highlights → freeze on final pose. Sounds that work: sped-up house, jersey club, Afrobeat instrumentals.</p>
+
+<h3>Sports edits (NBA, soccer, gym PR)</h3>
+<p>Slow-mo zoom on the athlete → drop hits exactly on the dunk, goal, or lift → glitch transition → repeat with 3 more clips. Sounds that work: phonk, drift phonk, Hensonn "Sahara", Travis Scott instrumentals.</p>
+
+<h3>AMV (Anime Music Videos)</h3>
+<p>2-second establishing shot → drop → cuts on every kick across a fight scene → lyric punches on character close-ups. Sounds: Linkin Park remixes, j-rock chorus drops.</p>
+
+<h3>Sneaker reveals</h3>
+<p>Mystery shot of feet → bass drop → reveal cut → 360 spin → drip-stack flex. Sounds: Brooklyn drill, NY drill, Detroit slap beats.</p>
+
+<h3>Car edits</h3>
+<p>Engine rev synced to beat-1 → drop → angle cuts on each beat → drift on the bass roll. Sounds: phonk, eurobeat, hyperpop.</p>
+
+<h3>Glow-up / before-after</h3>
+<p>Before shot held → drop hits → after shot lands → 3 more before/after pairs each on a beat. Sounds: "Young Hearts Run Free" sped-up, Charli XCX remixes.</p>
+
+<h2 id="libraries">Open-source beat detection libraries</h2>
+<ul class="tools">
+  <li><a href="https://librosa.org"><strong>librosa</strong></a> — Python. <code>onset_detect()</code> and <code>beat_track()</code> are the workhorses.</li>
+  <li><a href="https://essentia.upf.edu"><strong>Essentia</strong></a> — C++ with Python bindings. <code>RhythmExtractor2013</code> for accurate tracking.</li>
+  <li><a href="https://github.com/CPJKU/madmom"><strong>madmom</strong></a> — Python, deep-learning-based, state-of-the-art accuracy.</li>
+  <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API"><strong>Web Audio API</strong></a> — Built into every browser. Pair with spectral-flux onset detection for client-side beat detection.</li>
+  <li><a href="https://github.com/WyattBlue/auto-editor"><strong>auto-editor</strong></a> — CLI tool; cuts by silence or volume.</li>
+  <li><a href="https://ffmpeg.org"><strong>ffmpeg</strong></a> — Universal video toolkit for applying the cuts.</li>
+</ul>
+
+<h2 id="faq">FAQ</h2>
+
+<h3>What is the best free beat sync video editor?</h3>
+<p>For automatic beat-sync that runs in your browser with no signup: <a href="https://cutflux.app">Cutflux</a>. For manual beat-marker workflows: DaVinci Resolve Free and Shotcut.</p>
+
+<h3>Is there a free CapCut alternative for beat sync?</h3>
+<p>Yes. After CapCut Pro hit $19.99/mo in 2026, browser tools like Cutflux became the main free alternative for auto-beat-sync editing.</p>
+
+<h3>How does automatic beat detection work?</h3>
+<p>Spectral flux onset detection: audio is split into short frames, sudden increases in energy across frequency bands are flagged as onsets, and a minimum spacing (typically ~280ms) filters duplicates. librosa, Essentia, madmom, and the Web Audio API all implement variants.</p>
+
+<h3>Can I do beat sync editing in the browser?</h3>
+<p>Yes. Web Audio API + ffmpeg.wasm makes a fully client-side beat-sync editor possible. Cutflux runs on this stack — no upload, no account, video stays on your device.</p>
+
+<footer>
+  <p>Maintained on <a href="https://github.com/for-he-s-loved/awesome-beat-sync-video-editors">GitHub</a>. PRs welcome. CC0 / public domain.</p>
+</footer>
+
+</body>
+</html>
