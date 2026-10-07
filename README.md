@@ -96,6 +96,8 @@ For developers building their own beat-sync tools.
 - "How beat detection works in the browser" — Web Audio + spectral flux + 280ms minimum spacing is the standard recipe. The Cutflux source on GitHub (when open) is a clean reference.
 - "AMV editing the right way" — r/AnimeMusicVideos wiki has a beat-sync section.
 
+- [EditLogic — CapCut tutorials & troubleshooting](https://editlogic.io/) — Practical written guides for CapCut creators: clearing cache safely, export settings, custom fonts, and project recovery.
+
 ## Communities
 
 - **[r/VideoEditing](https://reddit.com/r/VideoEditing)** — General editor community, beat-sync questions come up daily.
