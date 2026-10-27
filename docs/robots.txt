@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://for-he-s-loved.github.io/awesome-beat-sync-video-editors/sitemap.xml
